@@ -15,7 +15,7 @@ A JS standard setting of WebStorm
 $ git clone https://github.com/YutHelloWorld/WebStrom-Setting.git
 ```
 
-2. 把`setting.jar`导入到WebStorm。
+2. 把`setting.jar`导入到WebStorm。步骤：File -> Import Settings
 
 3. 选中要格式化的代码，使用格式化快捷键Command+option+L(Mac)格式化代码，就能够使得JS代码保持和JS规范一致。
 
