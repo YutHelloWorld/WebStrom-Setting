@@ -18,3 +18,8 @@ $ git clone https://github.com/YutHelloWorld/WebStrom-Setting.git
 2. 把`setting.jar`导入到WebStorm。
 
 3. 选中要格式化的代码，使用格式化快捷键Command+option+L(Mac)格式化代码，就能够使得JS代码保持和JS规范一致。
+
+4. 顺带的，推荐你安装插件：Material Theme UI。方法：Prefences -> Plugin -> Browse Repositories -> 搜索 Material Theme UI 并安装。
+
+5. 效果
+![ws](https://user-images.githubusercontent.com/20860159/29484307-641b0cea-84ee-11e7-995a-b56797c3d3b6.jpg)
