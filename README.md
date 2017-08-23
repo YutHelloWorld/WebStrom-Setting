@@ -3,9 +3,16 @@ A JS standard setting of WebStorm
 
 ## 起源
 
-干前端也好几年了，开发工具一直使用的是WebStorm + Eclipse。WebStorm虽然吃内存，但是相应的性能和特性也是杠杠的！有着相当多的黑魔法。因为前端工程化，多人协作导致代码风格不一致产生一系列的问题，比如有的人使用2空格缩进，有的人使用4空格缩进。
+干前端也好几年了，开发工具一直使用的是WebStorm（前端） + Eclipse（后端Java服务）。WebStorm虽然吃内存，但毕竟是IDE，功能自然强大！
 
-我根据[airbnb/javascript](https://github.com/airbnb/javascript)这个JS规范，设定了WebStrom的Code Style。
+一个开发团队中，有的人喜欢用4空格缩进，有的人喜欢用2空格，没有对错之分。我们使用规范，只是为了代码风格统一，方便互相review，避免争论。
+
+这里我根据多年的使用习惯，参考JS社区编程规范，导出了webstorm的设置jar包，方便有需要的同学一键导入使用。
+
+## 特性
+
+- 主题 Material Theme
+- Code Style 遵循[JavaScript Standard Style](https://standardjs.com/readme-zhcn.html#usage),补充`"object-curly-spacing": [2, "always"]`,`"comma-dangle": "off"`
 
 ## 使用
 
@@ -15,7 +22,7 @@ A JS standard setting of WebStorm
 $ git clone https://github.com/YutHelloWorld/WebStrom-Setting.git
 ```
 
-2. 把`setting.jar`导入到WebStorm。步骤：File -> Import Settings
+2. 把仓库中的`setting.jar`导入到WebStorm。操作：File -> Import Settings
 
 3. 选中要格式化的代码，使用格式化快捷键Command+option+L(Mac)格式化代码，就能够使得JS代码保持和JS规范一致。
 
