@@ -14,6 +14,8 @@ A JS standard setting of WebStorm
 - 主题 Material Theme
 - Code Style 遵循[JavaScript Standard Style](https://standardjs.com/readme-zhcn.html#usage),补充`"object-curly-spacing": [2, "always"]`,`"comma-dangle": "off"`
 
+> 快速应用的ESLINT规则生成Code Style  
+https://github.com/YutHelloWorld/Blog/issues/8
 ## 使用
 
 1. 克隆仓库
